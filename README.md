@@ -4,7 +4,7 @@ This is for bulding jenkins job of the maven sample project
 #### 1. Press "Create New Item" then -> Add name and choose freestyle project ####    
 ![image](https://user-images.githubusercontent.com/82150368/119909773-5fcc7d00-bf5e-11eb-8c2d-3edf285525b0.png)
 
-#### 2.  Add Discrebtion ####    
+#### 2.  Add a Description ####    
 ![image](https://user-images.githubusercontent.com/82150368/119909835-81c5ff80-bf5e-11eb-9ffe-467d240857e8.png)
 
 
@@ -14,7 +14,7 @@ url: https://github.com/jglick/simple-maven-project-with-tests
 ![image](https://user-images.githubusercontent.com/82150368/119910107-13ce0800-bf5f-11eb-85e8-1e61811a310b.png)
 
 #### 4. In the "Build" -> Add the folowing command to build the project :  
-`mvn -Dmaven.test.failure.ignore=true clean package` ####     
+`mvn -Dmaven.test.failure.ignore=true clean package`      
 ![image](https://user-images.githubusercontent.com/82150368/119910481-e5046180-bf5f-11eb-91ac-4b273ae80e53.png)
 
 #### 5. Press "Build Now" -> Console Output ####  
